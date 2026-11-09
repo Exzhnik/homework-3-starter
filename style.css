@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 24px;
+  color: #1f2937;
+  background: #e5e7eb;
+  font-family: Arial, sans-serif;
+}
+
+.report {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #9ca3af;
+}
+
+.summary,
+.results {
+  margin-top: 24px;
+}
+
+.summary-card {
+  display: inline-block;
+  width: 190px;
+  min-height: 72px;
+  margin: 8px;
+  padding: 16px;
+  background: #e0e7ff;
+  border: 1px solid #818cf8;
+}
+
+.result-list {
+  margin: 16px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.result-item {
+  margin: 8px 0;
+  padding: 12px 16px;
+  background: #f3f4f6;
+  border: 1px solid #d1d5db;
+}
+
+.result-name {
+  font-weight: bold;
+}
