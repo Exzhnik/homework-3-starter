@@ -1,7 +1,5 @@
 import { readFile, unlink, writeFile } from 'node:fs/promises'
-
-// TODO после занятия про npm и модули: добавьте в package.json поле "type": "module",
-// затем добавьте импорт: import { calculateReport, validateQuizData } from './stats.js'
+import { calculateReport, validateQuizData } from './stats.js'
 
 const outputPath = './report.html'
 
